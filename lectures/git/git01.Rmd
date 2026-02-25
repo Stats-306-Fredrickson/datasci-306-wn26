@@ -32,6 +32,10 @@ library(tidyverse)
 * If there are **conflicts**, git will let you know and make you resolve them.
 * If you ever need to see what changed, you have the entire **history** of all changes to look at.
 
+## Diagram
+
+![Git Workflow](images/git_workflow.png)
+
 ## Command line interfaces
 
 While git has graphical interfaces, we will teach using a **command line interface** (CLI) for git.
@@ -76,9 +80,6 @@ $ git SUBCOMMAND -o --options ARG1 ARG2 ...
 
 Some example subcommands will be `pull` to get updates, `log` to see the history, `add` to stage files, and `commit` to commit changes.
 
-## Git presentation
-
-[Let's use an existing presentation to see how git works](https://courses.cs.washington.edu/courses/cse403/13au/lectures/git.ppt.pdf).
 
 ## Starting a new project with git
 
@@ -120,7 +121,7 @@ In your running exercise, edit a file. Then add your changes and use `git commit
 
 ## Getting future updates
 
-When we make changes to the course materials (this will be frequent! We like to tinker!), you can get updates:
+When we make changes to the course materials, you can get updates:
 
 ```
 $ git pull
